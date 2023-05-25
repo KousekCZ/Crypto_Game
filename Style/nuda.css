@@ -1,0 +1,46 @@
+canvas {
+    border: 1px solid red;
+    width: 90%;
+    height: 90%;
+    display: inline-block;
+}
+
+#homepage-button,
+#crypto-button,
+#nuda-button {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#homepage-button:hover,
+#crypto-button:hover,
+#nuda-button:hover {
+    background-color: #990000;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: aqua;
+}
