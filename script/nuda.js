@@ -78,3 +78,10 @@ opacityRange.addEventListener("input", function () { // přidání posluchače u
     ctx.globalAlpha = opacityRange.value; // nastavení průhlednosti kreslení podle hodnoty posuvníku
 });
 
+window.addEventListener("DOMContentLoaded", function() {
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+        alert("Tato stránka není dostupná na mobilním zařízení.");
+        window.location.href = "uvod.php";
+    }
+});
+
