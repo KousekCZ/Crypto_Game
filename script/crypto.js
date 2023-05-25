@@ -166,7 +166,7 @@ function loadUserDataFromLocalStorage() {
 loadUserDataFromLocalStorage();
 displayOwnedCrypto();
 fetchCryptoData();
-//startCountdown(updateInterval / 1000, document.getElementById('countdown'));
+startCountdown(updateInterval / 1000, document.getElementById('countdown'));
 updateBalance();
 
 
