@@ -1,3 +1,5 @@
+Dokumentace k projektu:
+
 CRYPTO GAME:
 1) install xampp server with mysql and apache for php
 2) after install, start in xampp mysql and apache
@@ -5,3 +7,4 @@ CRYPTO GAME:
 4) put into url this: http://localhost/ [name of game folder] /first.php
 5) enjoy !
 6) Author: Jan Kus
+
